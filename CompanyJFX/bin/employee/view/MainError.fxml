@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employee.view.MainErrorController">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="466.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="91.0" layoutY="68.0" text="Sorry,you are not a manager! Please try again!" />
+            <Button fx:id="button" layoutX="204.0" layoutY="116.0" mnemonicParsing="false" onAction="#closeMainError" text="OK" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
